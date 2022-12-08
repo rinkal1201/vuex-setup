@@ -29,6 +29,16 @@ const routes = [
     path: '/active-data',
     name: 'mixin',
     component: () => import('../views/mixin/active')
+  },
+  {
+    path: '/toggle-switch',
+    name: 'toggle',
+    component: () => import('../views/toggle')
+  },
+  {
+    path: '/form-validation',
+    name: 'validation',
+    component: () => import('../views/validation')
   }
 ]
 
