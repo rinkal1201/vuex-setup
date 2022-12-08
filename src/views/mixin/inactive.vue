@@ -7,9 +7,10 @@
 </div>
 </template>
 
-  
 <script>
-import {mixin} from '../../mixins/mixin.js'
+import {
+    mixin
+} from '../../mixins/mixin.js'
 export default {
     name: 'Mixins',
     mixins: [mixin],
@@ -116,8 +117,8 @@ export default {
             return this.filter_by_date(this.getData());
         }
     },
-    mounted(){
-          console.log(this.inactiveUsers);
+    mounted() {
+        console.log(this.inactiveUsers);
     }
 }
 </script>
