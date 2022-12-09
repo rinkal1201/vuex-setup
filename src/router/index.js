@@ -39,6 +39,16 @@ const routes = [
     path: '/form-validation',
     name: 'validation',
     component: () => import('../views/validation')
+  },
+  {
+    path: '/props',
+    name: 'props',
+    component: () => import('../views/props-demo')
+  },
+  {
+    path: '/demo-crud',
+    name: 'crud',
+    component: () => import('../views/crud')
   }
 ]
 
