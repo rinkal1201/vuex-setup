@@ -1,6 +1,6 @@
 <template>
     <div>
-        <vs-button title="Good Morning" color="green" border="black" size="5"/>
+        <vs-button title="Good Morning" color="green" border="black" size="5"/> 
     </div>
 </template>
 <script>
