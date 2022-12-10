@@ -49,6 +49,21 @@ const routes = [
     path: '/demo-crud',
     name: 'crud',
     component: () => import('../views/crud')
+  },
+  {
+    path: '/theme',
+    name: 'theme',
+    component: () => import('../views/theme')
+  },
+  {
+    path: '/themeMode',
+    name: 'themeMode',
+    component: () => import('../views/themeMode')
+  },
+  {
+    path: '/light',
+    name: 'light',
+    component: () => import('../views/light')
   }
 ]
 
