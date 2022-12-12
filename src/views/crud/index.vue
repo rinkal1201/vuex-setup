@@ -9,7 +9,7 @@
                 <h2>{{i.name}}</h2>
             </div>
             <div>
-                <button type="button" class="btn btn-danger ml-5" @click="removeData(index)">Remove</button>
+                <button type="button" class="btn btn-danger ml-5" @click="removeData(i)">Remove</button>
             </div>
         </div>
     </div>
@@ -33,8 +33,8 @@ export default {
             this.detail = '';
             localStorage.setItem('test-vue', JSON.stringify(this.test));
         },
-        removeData(index) {
-            this.test.splice(index, 1);
+        removeData(i) {
+            this.test.splice(i, 1);
             localStorage.setItem('test-vue', JSON.stringify(this.test));
         },
     },

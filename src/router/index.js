@@ -64,6 +64,11 @@ const routes = [
     path: '/light',
     name: 'light',
     component: () => import('../views/light')
+  },
+  {
+    path: '/drag-and-drop',
+    name: 'drag-and-drop',
+    component: () => import('../views/drag-and-drop')
   }
 ]
 
