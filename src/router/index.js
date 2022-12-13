@@ -61,14 +61,19 @@ const routes = [
     component: () => import('../views/themeMode')
   },
   {
-    path: '/light',
-    name: 'light',
-    component: () => import('../views/light')
+    path: '/dynamic-form',
+    name: 'dynamic-form',
+    component: () => import('../views/dynamic-form')
   },
   {
     path: '/drag-and-drop',
     name: 'drag-and-drop',
     component: () => import('../views/drag-and-drop')
+  },
+  {
+    path: '/design-page',
+    name: 'design-page',
+    component: () => import('../views/design/home-page.vue')
   }
 ]
 
